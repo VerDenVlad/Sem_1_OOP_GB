@@ -6,5 +6,4 @@ public class Eagle extends Animal{
         super(name, birthDate, vaccinations, illness, owner);
     }
 
-
 }

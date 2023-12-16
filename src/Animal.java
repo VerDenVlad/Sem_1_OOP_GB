@@ -40,12 +40,13 @@ public class Animal {
         System.out.println("Animal is wakeup !!");
     }
 
-    private void wakeup (int time){
+    private void wakeupi (int time){
         System.out.println("Animal is wakeup in " + time);
     }
 
     private void eat (){
-        System.out.println("Animal ate");
+
+        System.out.println("Animal eat");
     }
 
     private void play (){
@@ -53,13 +54,48 @@ public class Animal {
     }
 
     private void sleep () {
+
         System.out.println("Animal sleeping");
+    }
+    private void toGo () {
+
+        System.out.println("Animal is moving");
+    }
+    private void fly () {
+
+        System.out.println("Animal flies");
+    }
+    private void swim () {
+
+        System.out.println("Animal swims");
     }
 
     public void lifeCycle () {
         wakeup();
         eat();
         play();
+        sleep();
+    }
+
+    public void lifeCycleEagle () {
+        wakeup();
+        fly();
+        eat();
+        sleep();
+    }
+    public void lifeCycleDuck () {
+        wakeup();
+        swim();
+        eat();
+        fly();
+        play();
+        sleep();
+    }
+    public void lifeCycleSnake () {
+        wakeup();
+        swim();
+        eat();
+        toGo();
         sleep();
     }
 

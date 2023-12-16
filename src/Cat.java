@@ -10,6 +10,7 @@ public class Cat extends Animal{
     }
 
     public int getLegsCount() {
+
         return legsCount;
     }
 }
