@@ -5,7 +5,7 @@ public abstract class Personal {
     protected String name;
     protected LocalDate dateOfBirth;
     protected String post;
-    protected String city = null;
+    protected String city;
 
     public Personal(String name, LocalDate dateOfBirth, String post, String city) {
         this.name = name;

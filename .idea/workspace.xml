@@ -5,24 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f59b94b-eb7a-4ce4-a15c-ff7026647416" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Doctor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Fish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Flyble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Goable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Nurse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Penguin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Personal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Swimble.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VeterinaryClinic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Duck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Eagle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Eagle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Snake.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Personal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Personal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +95,7 @@
       <workItem from="1702761210430" duration="6865000" />
       <workItem from="1702826800110" duration="2901000" />
       <workItem from="1702932701970" duration="2953000" />
-      <workItem from="1703100938574" duration="14692000" />
+      <workItem from="1703100938574" duration="15046000" />
     </task>
     <task id="LOCAL-00001" summary="Добавились классы Duck, Snake">
       <option name="closed" value="true" />
@@ -130,7 +113,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702770612621</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Добавил классы Nurse, Personal, Doctor">
+      <option name="closed" value="true" />
+      <created>1703124724221</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703124724221</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +130,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Добавились классы Duck, Snake" />
     <MESSAGE value="Добавил readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил readme" />
+    <MESSAGE value="Добавил классы Nurse, Personal, Doctor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил классы Nurse, Personal, Doctor" />
   </component>
 </project>
