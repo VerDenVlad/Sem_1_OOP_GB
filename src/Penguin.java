@@ -1,21 +1,14 @@
 import java.time.LocalDate;
 import java.util.List;
 
-public class Duck extends Animal implements Goable, Flyble, Swimble{
-    public Duck(String name, LocalDate birthDate, List<String> vaccination, String illness, String ownerName) {
+public class Penguin extends Animal implements Goable, Swimble{
+    public Penguin(String name, LocalDate birthDate, List<String> vaccination, String illness, String ownerName) {
         super(name, birthDate, vaccination, illness, ownerName);
     }
 
     @Override
     public void lifeCircle() {
 
-    }
-
-
-    @Override
-    public double fly() {
-        System.out.printf("%s flying", type);
-        return 10.0;
     }
 
     @Override

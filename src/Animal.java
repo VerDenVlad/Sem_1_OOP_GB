@@ -1,21 +1,22 @@
 import java.time.LocalDate;
 import java.util.List;
 
-public class Animal {
+public abstract class Animal {
     protected String name;
     protected LocalDate birthDate;
-    protected List <String> vaccinations;
+    protected List<String> vaccination;
     protected String illness;
-    protected String owner;
+    protected String ownerName;
+    protected String type;
 
-    public Animal(String name, LocalDate birthDate, List<String> vaccinations, String illness, String owner) {
+    public Animal(String name, LocalDate birthDate, List<String> vaccination, String illness, String ownerName) {
         this.name = name;
         this.birthDate = birthDate;
-        this.vaccinations = vaccinations;
+        this.vaccination = vaccination;
         this.illness = illness;
-        this.owner = owner;
+        this.ownerName = ownerName;
+        this.type = getClass().getSimpleName();
     }
-
     public String getName() {
         return name;
     }
@@ -24,90 +25,50 @@ public class Animal {
         return birthDate;
     }
 
-    public List<String> getVaccinations() {
-        return vaccinations;
+    public List<String> getVaccination() {
+        return vaccination;
     }
 
     public String getIllness() {
         return illness;
     }
 
-    public String getOwner() {
-        return owner;
+    public String getOwnerName() {
+        return ownerName;
     }
 
-    private void wakeup (){
-        System.out.println("Animal is wakeup !!");
+    private void wakeUp(){
+        System.out.println("Animal is wakeup");
     }
 
-    private void wakeupi (int time){
+    private void wakeUp(int time){
         System.out.println("Animal is wakeup in " + time);
     }
 
-    private void eat (){
-
-        System.out.println("Animal eat");
+    private void eat(){
+        System.out.println("Animal ate");
     }
 
-    private void play (){
+    private void play(){
         System.out.println("Animal played");
     }
 
-    private void sleep () {
-
+    private void sleep(){
         System.out.println("Animal sleeping");
     }
-    private void toGo () {
 
-        System.out.println("Animal is moving");
-    }
-    private void fly () {
+    public abstract void lifeCircle();
 
-        System.out.println("Animal flies");
-    }
-    private void swim () {
 
-        System.out.println("Animal swims");
-    }
-
-    public void lifeCycle () {
-        wakeup();
-        eat();
-        play();
-        sleep();
-    }
-
-    public void lifeCycleEagle () {
-        wakeup();
-        fly();
-        eat();
-        sleep();
-    }
-    public void lifeCycleDuck () {
-        wakeup();
-        swim();
-        eat();
-        fly();
-        play();
-        sleep();
-    }
-    public void lifeCycleSnake () {
-        wakeup();
-        swim();
-        eat();
-        toGo();
-        sleep();
-    }
 
     @Override
     public String toString() {
         return "Animal{" +
                 "name='" + name + '\'' +
                 ", birthDate=" + birthDate +
-                ", vaccinations=" + vaccinations +
+                ", vaccination=" + vaccination +
                 ", illness='" + illness + '\'' +
-                ", owner='" + owner + '\'' +
+                ", ownerName='" + ownerName + '\'' +
                 '}';
     }
 }
-
