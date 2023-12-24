@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f59b94b-eb7a-4ce4-a15c-ff7026647416" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Personal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Personal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/phapmacy/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/phapmacy/ComponentIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/phapmacy/IterablePharmacy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/phapmacy/Pharmacy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/phapmacy/PharmacyMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +66,7 @@
       <recent name="VeterinaryClinic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.PharmacyMain">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Sem_1_GB" />
@@ -76,8 +81,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PharmacyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="phapmacy.PharmacyMain" />
+      <module name="Sem_1_GB" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="phapmacy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PharmacyMain" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
@@ -95,7 +114,9 @@
       <workItem from="1702761210430" duration="6865000" />
       <workItem from="1702826800110" duration="2901000" />
       <workItem from="1702932701970" duration="2953000" />
-      <workItem from="1703100938574" duration="15046000" />
+      <workItem from="1703100938574" duration="15472000" />
+      <workItem from="1703189209999" duration="11096000" />
+      <workItem from="1703374976873" duration="8549000" />
     </task>
     <task id="LOCAL-00001" summary="Добавились классы Duck, Snake">
       <option name="closed" value="true" />
@@ -121,7 +142,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703124724221</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Добавил классы Nurse, Personal, Doctor">
+      <option name="closed" value="true" />
+      <created>1703124986337</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703124986337</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
